@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/USR/abt_ths_gide.htm'],s:['2023'],p:[['2023',3]]});

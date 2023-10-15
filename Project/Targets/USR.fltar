@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
+  MasterToc="/Project/TOCs/USR.fltoc"
+  PatchHeadingLevels="true"
+  InjectBookHeadings="true"
+  OutputFile="Lost Lands User Guide"
+  OutputFolder="C:\Bitbucket\Vishnu Resume\Lost Lands\Output\Vishnu"
+  ConditionTagExpression="exclude[Default.ScreenOnly] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="Fit" />
+  <DocumentProperties
+    Author="Vishnu Manoj"
+    Title="Lost Lands User Guide" />
+</CatapultTarget>
